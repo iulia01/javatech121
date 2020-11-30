@@ -93,7 +93,7 @@ public class MyTests {
     }
 
     @Test
-    void testHexDigitsWithDifferentCase() {
+    void testHexDigitsWithDifferentCases() {
         assertAll(
                 () -> assertEquals(Integer.valueOf(43981), Integer.decode("0xABCD")),
                 () -> assertEquals(Integer.valueOf(43981), Integer.decode("0Xabcd")),
